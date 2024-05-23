@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import 'antd/dist/reset.css';  
+import MainTable from './MainTable';
+
+const App = () => (
+  <div style={{ padding: 24 }}>
+    <h1>ML Engineer Salaries (2020-2024)</h1>
+    <MainTable />
+  </div>
+);
 
 export default App;

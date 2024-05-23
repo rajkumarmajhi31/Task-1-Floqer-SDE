@@ -1,0 +1,14 @@
+.custom-table .ant-table {
+  background-color: #f0f0f0; 
+}
+
+.custom-table .ant-table-thead > tr > th {
+  background-color: #1890ff; 
+  color: rgb(36, 34, 34); 
+}
+
+.custom-table .ant-table-tbody > tr > td {
+  color: #555555; 
+}
+
+
